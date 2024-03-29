@@ -1,8 +1,5 @@
 <template>
-  <main class="main-wrapper">
-    <h1>Markus Johansen</h1>
-    <img src="./assets/markus.jpeg" alt="Markus Johansen" />
-  </main>
+  <NuxtPage />
 </template>
 
 <script>
