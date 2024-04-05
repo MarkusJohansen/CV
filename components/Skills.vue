@@ -1,6 +1,9 @@
 <template>
   <h2>💪 Skills</h2>
-  <p>I have experience with the following technologies and tools:</p>
+  <p>
+    While studying IT at the university, at work, and in my free time, I have
+    acquired a variety of skills and competencies. Here are some of them:
+  </p>
   <ul>
     <li v-for="skill in skills" :key="skill">{{ skill }}</li>
   </ul>

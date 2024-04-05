@@ -17,7 +17,7 @@ export default {
         {
           name: "CV page 📝",
           description:
-            "The webpage you are currently looking at! Built with Nuxt.js and ChimeraCSS!",
+            "[Soon to be public!] The webpage you are currently looking at! Built with Nuxt.js and ChimeraCSS!",
           link: "https://github.com/MarkusJohansen/CV",
         },
         {
@@ -29,13 +29,13 @@ export default {
         {
           name: "Dagens ord 🔡",
           description:
-            "A Tribute to the Norwegian language and some of its funny words and terms.",
+            "[Soon to be public!] A Tribute to the Norwegian language and some of its funny words and terms.",
           link: "https://github.com/Dagens-ord/dagens-ord",
         },
         {
           name: "Blue-sector 🥽",
           description:
-            "Contributed to a open source VR career-guidance application as a part of my bachelor thesis.",
+            "[Soon to be public!] Contributed to a open source VR career-guidance application as a part of my bachelor thesis.",
           link: "https://github.com/vr4vet/Blue-Sector",
         },
         {

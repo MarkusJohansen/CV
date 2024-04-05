@@ -1,23 +1,21 @@
 <template>
   <h2>🧑🏻‍💼 Work Experience</h2>
   <p>
-    I have worked as a web developer for several companies, including Google,
-    Facebook, and Amazon.
+    During my professional journey, I have mostly worked part-time jobs as
+    fullstack software developer and store clerk. I also worked full-time as a
+    developer intern for two months. During each of my jobs, I have learned a
+    lot and aquired new skills. I am always looking for new opportunities to
+    grow and learn.
   </p>
-  <div v-for="experience in experiences" :key="experience.name">
-    <h3>
-      {{ experience.title }},
-      <small>
-        <italic>{{ experience.company }}</italic>
-      </small>
-    </h3>
-    <underline>
-      {{ experience.date }}
-    </underline>
-    <br />
-    <br />
-    {{ experience.description }}
-  </div>
+  <ul>
+    <li v-for="experience in experiences" :key="experience.title">
+      <strong> {{ experience.title }}</strong> [{{ experience.date }}],
+      <italic>{{ experience.company }}</italic
+      >:
+      <br />
+      {{ experience.description }}
+    </li>
+  </ul>
 </template>
 
 <script>
