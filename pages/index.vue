@@ -17,7 +17,7 @@ export default {
         {
           name: "CV page 📝",
           description:
-            "[Soon to be public!] The webpage you are currently looking at! Built with Nuxt.js and ChimeraCSS!",
+            "The webpage you are currently looking at! Built with Nuxt.js and ChimeraCSS!",
           link: "https://github.com/MarkusJohansen/CV",
         },
         {
