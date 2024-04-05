@@ -1,5 +1,5 @@
 <template>
-  <h2>Skills</h2>
+  <h2>💪 Skills</h2>
   <p>I have experience with the following technologies and tools:</p>
   <ul>
     <li>HTML</li>

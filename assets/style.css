@@ -1,12 +1,20 @@
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 5rem 20rem;
+  padding: 5rem 20vw;
 }
 
+/* Topsection */
 .avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: rgba(1, 141, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
