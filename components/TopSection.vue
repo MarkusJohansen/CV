@@ -5,9 +5,8 @@
   </div>
   <hr />
   <p>
-    I am a web developer with a passion for design and user experience. I
-    specialize in front-end development and have experience with back-end
-    development as well. I am currently working as a freelance developer and am
-    always looking for new projects to work on.
+    I am a informatics student with a passion for design and user experience. I
+    am currently working as a part-time fullstack software developer at
+    Consigli, and always looking for new opportunities to learn and grow.
   </p>
 </template>
