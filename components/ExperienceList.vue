@@ -7,15 +7,15 @@
     lot and aquired new skills. I am always looking for new opportunities to
     grow and learn.
   </p>
-  <ul>
-    <li v-for="experience in experiences" :key="experience.title">
-      <strong> {{ experience.title }}</strong> [{{ experience.date }}],
-      <italic>{{ experience.company }}</italic
-      >:
-      <br />
-      {{ experience.description }}
-    </li>
-  </ul>
+  <Card v-for="experience in experiences" :key="experience.title">
+    <strong> {{ experience.title }}</strong> [{{ experience.date }}],
+    <br />
+    <italic>{{ experience.company }}</italic
+    >:
+    <br />
+    <br />
+    {{ experience.description }}
+  </Card>
 </template>
 
 <script>

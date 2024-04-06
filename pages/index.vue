@@ -6,6 +6,9 @@
     <ExperienceList :experiences="experiences" />
     <Skills :skills="skills" />
     <Footer />
+    <div class="button-wrapper">
+      <ToTopButton />
+    </div>
   </main>
 </template>
 
@@ -35,7 +38,7 @@ export default {
         {
           name: "Blue-sector 🥽",
           description:
-            "[Soon to be public!] Contributed to a open source VR career-guidance application as a part of my bachelor thesis.",
+            "[Soon to be public!] Contributed to an open-source VR career-guidance application as a part of my bachelor thesis.",
           link: "https://github.com/vr4vet/Blue-Sector",
         },
         {
@@ -67,7 +70,7 @@ export default {
           degree: "Realfagskompetanse",
           institution: "St.Olav Skole",
           location: "Sarpsborg, Norway",
-          date: "2018 - 2021",
+          date: "aug. 2018 - jun. 2021",
           description:
             "High school degree with specialization in mathematics and biology.",
         },
@@ -75,52 +78,52 @@ export default {
           degree: "Bachelor in Informatics",
           institution: "NTNU - Norwegian University of Science and Technology",
           location: "Trondheim, Norway",
-          date: "2021 - 2024",
+          date: "aug. 2021 - jun. 2024",
           description:
             "Bachelor degree in Informatics. Learning about software development, databases, data analysis, web development, algorithms, datastructures, UX-design and more.",
         },
       ],
       experiences: [
         {
-          title: "Fullstack Developer",
+          title: "👨‍💻 Fullstack Developer",
           company: "Consigli",
           description:
             "Part time developer at Consigli AS. Worked as a fullstack platform developer, working with tools such as React, Tailwind, Django, DjangoREST, Sentry and PostgreSQL. The platform is a tool for interacting with our AI engine and analyzing data from the construction industry. I have contributed to building our API's, Component library, Admin panel, Pipelines, Main platform and more.",
-          date: "October 2023 - Present",
+          date: "oct. 2023 - Present",
         },
         {
-          title: "Internship - Software Developer",
+          title: "👨‍💻 Developer intern",
           company: "NAV IT",
           description:
             "Worked as a developer at the Norwegian work and welfare administration.",
-          date: "2020 - 2021",
+          date: "jun. 2023 - jul. 2023",
         },
         {
-          title: "Store clerk",
+          title: "🍶 Store clerk",
           company: "Tilbords City Lade",
           description:
             "Worked as a store clerk at Tilbords, a store that sells interior and home decor.",
-          date: "2021 - 2022",
+          date: "nov. 2021 - may. 2022",
         },
         {
-          title: "Store clerk",
+          title: "👨‍🍳 Store clerk",
           company: "Meny Sarpsborg - department of fish, meat and cheese",
           description: "Worked as a store clerk at Meny, a grocery store.",
-          date: "2019 - 2020",
+          date: "nov. 2020 - jul. 2021",
         },
         {
-          title: "Comitee leader",
+          title: "👨🏻‍💼 Comitee leader",
           company: "Linjeforeningen Online - Profil- og Aviskomiteen",
           description:
             "Worked as a comitee leader at the student organization for informatics students at NTNU; Online, in the Profile- and Newspaper comitee.",
-          date: "2019 - 2020",
+          date: "mar. 2023 - mar. 2024",
         },
         {
-          title: "Comitee member",
+          title: "🎨 Comitee member",
           company: "Linjeforeningen Online - Profil- og Aviskomiteen",
           description:
             "Worked as a comitee member at the student organization for informatics students at NTNU; Online, in the Profile- and Newspaper comitee. Learned about graphic design, journalism, media production and more.",
-          date: "2018 - present",
+          date: "sep. 2022 - present",
         },
       ],
       skills: [
