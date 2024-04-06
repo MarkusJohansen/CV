@@ -6,6 +6,9 @@
     <ExperienceList :experiences="experiences" />
     <Skills :skills="skills" />
     <Footer />
+    <div class="button-wrapper">
+      <ToTopButton />
+    </div>
   </main>
 </template>
 

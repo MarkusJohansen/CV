@@ -44,3 +44,8 @@
     column-count: 1;
   }
 }
+
+/* scroll-to-top button */
+.button-wrapper {
+  margin: 1rem auto;
+}
