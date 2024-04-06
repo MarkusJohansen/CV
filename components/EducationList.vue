@@ -6,12 +6,11 @@
     in the future.
   </p>
   <ul>
-    <li v-for="educationEntry in educationEntries" :key="educationEntry.name">
-      <strong> {{ educationEntry.degree }}</strong> [{{ educationEntry.date }}]
-      | <italic>{{ educationEntry.institution }}</italic
-      >,
-      {{ educationEntry.location }}
-    </li>
+    <Education
+      v-for="education in educationEntries"
+      :key="education.degree"
+      :education="education"
+    />
   </ul>
 </template>
 
