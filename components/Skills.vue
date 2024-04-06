@@ -4,7 +4,7 @@
     While studying IT at the university, at work, and in my free time, I have
     acquired a variety of skills and competencies. Here are some of them:
   </p>
-  <ul>
+  <ul class="splitted-list">
     <li v-for="skill in skills" :key="skill">{{ skill }}</li>
   </ul>
 </template>

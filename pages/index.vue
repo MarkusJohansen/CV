@@ -35,7 +35,7 @@ export default {
         {
           name: "Blue-sector 🥽",
           description:
-            "[Soon to be public!] Contributed to a open source VR career-guidance application as a part of my bachelor thesis.",
+            "[Soon to be public!] Contributed to an open-source VR career-guidance application as a part of my bachelor thesis.",
           link: "https://github.com/vr4vet/Blue-Sector",
         },
         {
