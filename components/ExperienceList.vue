@@ -10,8 +10,7 @@
   <Card v-for="experience in experiences" :key="experience.title">
     <strong> {{ experience.title }}</strong> [{{ experience.date }}],
     <br />
-    <italic>{{ experience.company }}</italic
-    >:
+    <italic>{{ experience.company }}</italic>
     <br />
     <br />
     {{ experience.description }}
