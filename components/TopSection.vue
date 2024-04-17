@@ -1,7 +1,7 @@
 <template>
   <div class="img-container">
     <img class="avatar" src="../assets/markus.jpeg" alt="Markus Johansen" />
-    <h1>Markus Johansen</h1>
+    <h1>👋 Markus Johansen</h1>
   </div>
   <hr />
   <p>

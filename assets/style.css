@@ -53,14 +53,6 @@
   .splitted-list {
     column-count: 2;
   }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
 }
 
 @media screen and (max-width: 550px) {
