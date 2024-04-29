@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "chimeracss": "^1.4.6",
-    "estree-walker": "",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
