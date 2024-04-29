@@ -1,14 +1,9 @@
 <template>
-  <main class="main-wrapper">
-    <TopSection />
+  <main>
     <ProjectsList :projects="projects" />
     <EducationList :educationEntries="educationEntries" />
     <ExperienceList :experiences="experiences" />
     <Skills :skills="skills" />
-    <Footer />
-    <div class="button-wrapper">
-      <ToTopButton />
-    </div>
   </main>
 </template>
 
@@ -32,7 +27,7 @@ export default {
         {
           name: "Dagens ord 🔡",
           description:
-            "[Soon to be public!] A Tribute to the Norwegian language and some of its funny words and terms.",
+            "[In progress!] A Tribute to the Norwegian language and some of its funny words and terms.",
           link: "https://github.com/Dagens-ord/dagens-ord",
         },
         {
