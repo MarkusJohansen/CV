@@ -1,11 +1,10 @@
 <template>
   <Card>
     <p>
-      <strong> {{ experience.title }}</strong>
+      <strong> {{ experience.position }}</strong
+      >, {{ experience.employer }}
       <br />
-      [{{ experience.date }}]
-      <br />
-      <italic>{{ experience.company }}</italic>
+      [{{ experience.start_date }} - {{ experience.end_date }}]
     </p>
     <p>
       {{ experience.description }}

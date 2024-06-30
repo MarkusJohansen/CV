@@ -5,7 +5,7 @@
     acquired a variety of skills and competencies. Here are some of them:
   </p>
   <ul class="splitted-list">
-    <li v-for="skill in skills" :key="skill">{{ skill }}</li>
+    <li v-for="skill in skills" :key="skill">{{ skill.skill }}</li>
   </ul>
 </template>
 

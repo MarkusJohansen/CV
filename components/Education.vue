@@ -1,9 +1,12 @@
 <template>
   <li>
-    <strong> {{ education.degree }}</strong> [{{ education.date }}],
-    <italic>{{ education.institution }}</italic
-    >,
-    {{ education.location }}
+    <p>
+      <strong> {{ education.degree }}</strong> [{{
+        education.start_date.split("-")[0]
+      }}
+      - {{ education.end_date && education.end_date.split("-")[0] }}] <br />
+      {{ education.institution }}, {{ education.location }}
+    </p>
   </li>
 </template>
 
