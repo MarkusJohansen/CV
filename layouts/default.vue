@@ -3,7 +3,7 @@
     <header>
       <div class="img-container">
         <img class="avatar" src="../assets/markus.jpeg" alt="Markus Johansen" />
-        <h1>👋 Markus Johansen</h1>
+        <h1 class="main-heading">Markus Aleksander Råkil Johansen</h1>
       </div>
       <hr />
       <p>
@@ -32,27 +32,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  head: {
-    link: [
-      {
-        rel: "stylesheet",
-        id: "chimera-blues",
-        href: "/node_modules/chimeracss/build/chimera-blues.css",
-        disabled: true,
-      },
-      {
-        rel: "stylesheet",
-        id: "chimera-reds",
-        href: "/node_modules/chimeracss/build/chimera-nightsky.css",
-        disabled: false,
-      },
-    ],
-  },
-};
-</script>
-
 <style scoped>
 .main-wrapper {
   display: flex;
@@ -66,13 +45,14 @@ export default {
   height: 15rem;
   border-radius: 100%;
   object-fit: cover;
-  box-shadow: rgba(1, 141, 255, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(70, 0, 102, 0.2) 0px 5px 15px 0px;
 }
 
 .img-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 /* scroll-to-top button */
@@ -80,6 +60,10 @@ export default {
   margin: 1rem auto;
 }
 
+.main-heading {
+  margin: 0;
+  text-align: center;
+}
 /* Media Queries */
 
 @media screen and (max-width: 700px) {

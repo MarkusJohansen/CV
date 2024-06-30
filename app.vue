@@ -1,6 +1,5 @@
 <script setup>
-import "./node_modules/chimeracss/build/chimera-blues.css";
-import "./assets/style.css";
+import "./node_modules/chimeracss/build/chimera-plain.css";
 </script>
 
 <template>
