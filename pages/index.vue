@@ -15,15 +15,8 @@ const { data: skills } = await supabase.from("skill").select("*");
 </script>
 
 <template>
-  <main class="main-wrapper">
-    <TopSection />
-    <ProjectsList :projects="projects" />
-    <EducationList :educationEntries="education" />
-    <ExperienceList :experiences="work" />
-    <Skills :skills="skills" />
-    <Footer />
-    <div class="button-wrapper">
-      <ToTopButton />
-    </div>
-  </main>
+  <ProjectsList :projects="projects" />
+  <EducationList :educationEntries="education" />
+  <ExperienceList :experiences="work" />
+  <Skills :skills="skills" />
 </template>
