@@ -51,5 +51,51 @@ export default {
     ],
   },
 };
-import "./assets/style.css";
 </script>
+
+<style scoped>
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 20vw;
+}
+
+/* Topsection */
+.avatar {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: rgba(1, 141, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* scroll-to-top button */
+.button-wrapper {
+  margin: 1rem auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 700px) {
+  .main-wrapper {
+    padding: 5rem 10vw;
+  }
+
+  .avatar {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-wrapper {
+    padding: 5rem 5vw;
+  }
+}
+</style>

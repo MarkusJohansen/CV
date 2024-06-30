@@ -19,3 +19,17 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+/* break list into columns */
+.splitted-list {
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .splitted-list {
+    column-count: 2;
+  }
+}
+</style>
