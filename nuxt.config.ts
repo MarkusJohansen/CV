@@ -5,9 +5,8 @@ export default defineNuxtConfig({
       supabase_key: process.env.SUPABASE_PUBLIC_ANON_KEY,
     },
   },
-
+  devtools: { enabled: false },
   compatibilityDate: "2025-04-06",
-
   vite: {
     server: {
       strictPort: true,
