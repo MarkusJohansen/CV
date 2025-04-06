@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
@@ -8,4 +7,11 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2025-04-06",
+
+  vite: {
+    server: {
+      strictPort: true,
+      allowedHosts: ["cv.markusjohansen.no"],
+    },
+  },
 });

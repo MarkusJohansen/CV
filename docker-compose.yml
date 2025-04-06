@@ -1,5 +1,6 @@
 services:
   nuxt:
+    restart: always
     container_name: cv
     build: .
     ports:
